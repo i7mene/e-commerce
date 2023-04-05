@@ -1,20 +1,77 @@
  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo:wght@200;400&display=swap'); 
  @import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-text');
  body{
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 50px;
     font-family: 'Neue Haas Grotesk Text', sans-serif;
+    background-color: #fbf7f4;
  } 
- nav .cata{
+ .logo{
+    font-size: 20px;
+    margin-right: 150px;
+    text-align:center;
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+     /* pa la paine margin-right: 0px ; */
+    justify-content:center;
+    align-items:center;
+    background-color : #fbf7f4; 
+    cursor: pointer;
+ }
+ nav{
     position: sticky; /* pour que ca soit fixe */ 
+    line-height: 0;
+ }
+ nav .cata{
     top: 0; 
     font-size: 35px;
-    color : #fbf7f4;
     font-family: 'Bebas Neue', cursive;
  }
- nav .filtre{
+ nav .link1{
     font-size: 12px;
     display: flex;
     flex-wrap: wrap;
-    background-color: #fbf7f4;
+    justify-content: flex-start; /*n7Thom gea au debut n9dr mandirhach */ 
+    }
+ .link{
+    margin-right: 10px;
  }
+ .filtre {
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-between;
+ }
+ .fin{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+ }
+ .cards{
+   display:flex;
+   flex-wrap:wrap;
+   /*flex-direction:column;*/
+   justify-content:center;
+   align-items:center;
+ }
+ .cards .card{
+   margin-right: 20px; 
+   cursor:pointer;
+ }
+ .cards .card img{
+   width: 150px; /*taille des cartes */ 
+   height: 200px;
+   object-fit: cover;
+ }
+ .cards .card .card-header{
+   flex-wrap:wrap;
+   justify-content: space-between;
+ } 
+ .cards .card .card-header p{
+   font-family: 'Neue Haas Grotesk Text', sans-serif; /* jsp why ca marche pas */
+ }
+ /*
+ .cards .card .card-body p{
+   margin-top: -20px; juste bac ttl3 
+ } */
+ 
