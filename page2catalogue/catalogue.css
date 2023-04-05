@@ -65,7 +65,8 @@
  }
  .cards .card .card-header{
    flex-wrap:wrap;
-   justify-content: space-between;
+   font-family: 'Neue Haas Grotesk Text', sans-serif; /* jsp why ca marche pas */
+  
  } 
  .cards .card .card-header p{
    font-family: 'Neue Haas Grotesk Text', sans-serif; /* jsp why ca marche pas */
